@@ -1,3 +1,16 @@
 html {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Serif";
+}
+
+header, footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+input {
+    border-color: #6e8c62;
+}
+
+hr {
+  border-color: #70ad55;
 }
