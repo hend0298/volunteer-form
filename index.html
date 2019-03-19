@@ -33,74 +33,135 @@
           <input id="date-of-birth" type="date">
         </div>
         <div>
-        <label for="size">T-shirt size</label>
-        <select id="size" name="t-shirt-size">
-          <option>Select a t-shirt size</option>
-          <option>Fitted: XS</option>
-          <option>Fitted: S</option>
-          <option>Fitted: M</option>
-          <option>Fitted: L</option>
-          <option>Fitted: XL</option>
-          <option>Straight-cut: XS</option>
-          <option>Straight-cut: S</option>
-          <option>Straight-cut: M</option>
-          <option>Straight-cut: XL</option>
-        </select>
+          <label for="size">T-shirt size</label>
+          <select id="size" name="t-shirt-size">
+            <option>Select a t-shirt size</option>
+            <option>Fitted: XS</option>
+            <option>Fitted: S</option>
+            <option>Fitted: M</option>
+            <option>Fitted: L</option>
+            <option>Fitted: XL</option>
+            <option>Straight-cut: XS</option>
+            <option>Straight-cut: S</option>
+            <option>Straight-cut: M</option>
+            <option>Straight-cut: XL</option>
+          </select>
         </div>
-
-
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email">
+        </div>
+        <div>
+          <label for="phone">Phone number (optional)</label>
+          <input id="phone" type="tel">
+        </div>
       </fieldset>
+      <fieldset>
+        <legend>Address</legend>
+        <div>
+          <label for="address">Street address</label>
+          <input id="address">
+        </div>
+        <div>
+          <label for="city">City</label>
+          <input id="city">
+        </div>
+        <div>
+          <label for="province">Province</label>
+          <select id="province" name="province">
+            <option>Select a province</option>
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland & Labrador</option>
+            <option>Northwest Territories</option>
+            <option>Nova Scotia</option>
+            <option>Nunavut</option>
+            <option>Ontario</option>
+            <option>Prince Edward Island</option>
+            <option>Québec</option>
+            <option>Saskatchewan</option>
+            <option>Yukon</option>
+          </select>
+        </div>
+        <div>
+          <label for="postal">Postal code</label>
+          <input id="postal">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>What activities are you interested in helping with?</legend>
+        <div>
+          <input id="holes" type="checkbox">
+          <label for="holes">Digging holes</label>
 
+          <input id="dirty" type="checkbox">
+          <label for="dirty">Getting dirty</label>
 
-      Email
-      Phone number (optional)
+          <input id="lifting" type="checkbox">
+          <label for="lifting">Lifting heavy objects</label>
 
-      Address
-      Street address
-      City
-      Postal code
+          <input id="driving" type="checkbox">
+          <label for="driving">Driving people</label>
 
-      Province
-      - Select a province
-      - Alberta
-      - British Columbia
-      - Manitoba
-      - New Brunswick
-      - Newfoundland & Labrador
-      - Northwest Territories
-      - Nova Scotia
-      - Nunavut
-      - Ontario
-      - Prince Edward Island
-      - Québec
-      - Saskatchewan
-      - Yukon
+          <input id="transporting" type="checkbox">
+          <label for="transporting">Transporting trees</label>
 
-      What activities are you interested in helping with?
-      - Digging holes
-      - Getting dirty
-      - Lifting heavy objects
-      - Driving people
-      - Transporting trees
-      - Taking photos
-      - Online publishing
-      - Managing people
+          <input id="photos" type="checkbox">
+          <label for="photos">Taking photos</label>
 
-      Do you have any experience with the following?
-      - Shovels
-      - Hand-held GPS
-      - Writing & blogging
-      - Photography
-      - Trail & hill climbing
-      - Bush craft
-      - ATVs
-      - Plant identification
-      - Special event planning
-      - Speaking to groups
+          <input id="publishing" type="checkbox">
+          <label for="publishing">Online publishing</label>
 
-      Do you have a valid driver’s license?
-      - Yes
-      - No
+          <input id="managing" type="checkbox">
+          <label for="managing">Managing people</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have any experience with the following?</legend>
+      <div>
+        <input id="shovels" type="checkbox">
+        <label for="shovels">Shovels</label>
+
+        <input id="gps" type="checkbox">
+        <label for="gps">Hand-held GPS</label>
+
+        <input id="writing" type="checkbox">
+        <label for="writing">Writing & blogging</label>
+
+        <input id="photography" type="checkbox">
+        <label for="photography">Photography</label>
+
+        <input id="climbing" type="checkbox">
+        <label for="climbing">Trail & hill climbing</label>
+
+        <input id="craft" type="checkbox">
+        <label for="craft">Bush craft</label>
+
+        <input id="atvs" type="checkbox">
+        <label for="atvs">ATVs</label>
+
+        <input id="plant" type="checkbox">
+        <label for="plant">Plant identification</label>
+
+        <input id="planning" type="checkbox">
+        <label for="planning">Special event planning</label>
+
+        <input id="speaking" type="checkbox">
+        <label for="speaking">Speaking to groups</label>
+      </div>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have a valid driver’s license?</legend>
+        <div>
+          <input id="yes" type="radio" name="license">
+          <label for="yes">Yes</label>
+
+          <input id="no" type="radio" name="license">
+          <label for="no">No</label>
+        </div>
+      </fieldset>
 
       Do you have a pick-up truck you’d be willing to use?
       - Yes
