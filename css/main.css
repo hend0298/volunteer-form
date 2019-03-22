@@ -1,5 +1,5 @@
 html {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", serif;
 }
 
 header, footer {
@@ -8,9 +8,13 @@ header, footer {
 }
 
 input {
-    border-color: #6e8c62;
+  border-color: #6e8c62;
 }
 
 hr {
   border-color: #70ad55;
+}
+
+fieldset {
+  border: 0;
 }
