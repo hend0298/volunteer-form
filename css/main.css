@@ -7,7 +7,7 @@ header, footer {
   color: #fff;
 }
 
-input {
+input, select {
   border-color: #6e8c62;
 }
 
